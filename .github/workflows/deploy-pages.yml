@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+env:
+  REACT_APP_DEPLOY_ENV: ''
 jobs:
   deploy:
     runs-on: ubuntu-latest
