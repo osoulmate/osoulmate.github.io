@@ -26,4 +26,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./build
-          cname: www.zhangqingya.cn
+          cname: e.zhangqingya.cn
